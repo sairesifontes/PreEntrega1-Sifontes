@@ -1,6 +1,7 @@
 //Constantes
 const antVirus = 2500
 const bkp = 1500
+let opcion
 
 
 // class constructora
@@ -13,7 +14,7 @@ class cita{
     }
 }
 
-let opcion
+
 
 //Menu
 do{
@@ -45,7 +46,7 @@ do{
 
         // instalación antivirus
         case "4": 
-            alert("Hola, el costo de la instalación del antivirus es de $"+antVirus)
+            alert("Hola, el costo de la instalación del antivirus es de 💲"+antVirus)
             let maquinas = parseInt(prompt("¿En cuántas computadoras lo instalaremos?"))
             let total = maquinas * antVirus
             alert("El total para las "+maquinas+" maquinas es: 💲"+total)
@@ -59,7 +60,6 @@ do{
             let email = prompt("Ingresa tu email")
             const nuevaCita = new cita(name, direccion, celular, email)
             alert("En minutos nos estaremos comunicando contigo para confirmar el dia de la visita. \n\n¡Muchas Gracias por preferirnos "+nuevaCita.nombre+"!😊")
-            console.log(nuevaCita)
         break;
 
         case "6":
