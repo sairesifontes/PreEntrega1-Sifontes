@@ -46,7 +46,7 @@ do{
 
         // instalación antivirus
         case "4": 
-            alert("Hola, el costo de la instalación del antivirus es de 💲"+antVirus)
+            alert("Hola, el costo de la instalación del antivirus es de: 💲"+antVirus)
             let maquinas = parseInt(prompt("¿En cuántas computadoras lo instalaremos?"))
             let total = maquinas * antVirus
             alert("El total para las "+maquinas+" maquinas es: 💲"+total)
