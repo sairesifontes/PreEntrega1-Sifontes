@@ -44,10 +44,8 @@ function pedirDatosPass(){
 
 
 //Menu
-let opcion
-
 do{
-    opcion = prompt("------- Selecione alguna de las siguientes opciones -------\n\n1. Registrate. \n2. Revision de tu notebook. \n3. Realización de Backups. \n4. Instalación de antivirus.  \n5. Agendar cita.  \n6. Salir.")
+    let opcion = prompt("------- Selecione alguna de las siguientes opciones -------\n\n1. Registrate. \n2. Revision de tu notebook. \n3. Realización de Backups. \n4. Instalación de antivirus.  \n5. Agendar cita.  \n6. Salir.")
 
     switch(opcion){
         // registrate
